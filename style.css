@@ -33,15 +33,11 @@ a {
 
 .one {
     background-color: #1f2937;
-    padding: 200px;
-}
-
-.content {
     display: flex;
     justify-content: space-between;
 }
 
-.title-font {
+.title-font-one {
    font-size: 48px;
    font-weight: 800;
    color: #F9FAF8;
@@ -49,7 +45,7 @@ a {
 
 .subtext {
     font-size: 18px;
-    color: #E5E7EB;
+    color: lightslategray;
 }
 
 .content-one-container {
@@ -71,10 +67,29 @@ a {
 }
 
 
-.image {
+.image-one {
     background-color: gray;
     display: flex;
-    
     width: 40%;
+    min-height: 200px;
 }
 
+.two {
+    display: flex;
+    flex-direction: column;
+}
+
+.title-font-two {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+.content-two-container {
+    display: flex;
+}
+
+.content {
+    padding: 100px 200px 100px 200px;
+    height: 250px;
+    align-items: center;
+}
