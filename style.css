@@ -177,3 +177,16 @@ a {
     font-size: 20px;
     font-weight: 300;
 }
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-footer {
+    color: white;
+    font-size: 18px;
+}
