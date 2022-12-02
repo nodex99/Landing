@@ -127,11 +127,6 @@ a {
     justify-content: center;
 }
 
-.quotation {
-    display: flex;
-    flex-direction: column;    
-}
-
 .quote{
     font-size: 36px;
     font-style: italic;
@@ -144,4 +139,41 @@ a {
     color: #1F2937;
     font-weight: 600;
     text-align: right;
+}
+
+.four {
+   display: flex;
+   align-items: center;
+}
+
+.content-four-container {
+    display: flex;
+    background-color: #1B4ED8;
+    height: 200px;
+    width: 100%;
+    border-radius: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px 0px 40px;
+}
+
+.text-four {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 8px;
+}
+
+.white-border {
+    border: 2px solid white;
+}
+
+.title-font-four {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.subtext-four {
+    font-size: 20px;
+    font-weight: 300;
 }
